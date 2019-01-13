@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  bshordermanagementdemo1:
+    image: ${DOCKER_REGISTRY}bshordermanagementdemo1
+    build:
+      context: .
+      dockerfile: BSHOrderManagementDemo1\Dockerfile
